@@ -1,0 +1,7 @@
+#include "resource.h"
+#include "winres.h"
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+IDI_ICON1 ICON "AppIcon.ico"

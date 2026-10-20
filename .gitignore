@@ -1,0 +1,41 @@
+# Visual Studio / MSBuild
+.vs/
+*.user
+*.suo
+*.filters
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+ipch/
+enc_temp_folder/
+bin/
+x64/
+[Dd]ebug/
+[Rr]elease/
+*.iobj
+*.ipdb
+*.aps
+
+# Gadget index cache next to HawkeyeRop.exe (often under x64/Release/gadgets/)
+gadgets/
+
+# Do not commit third-party or system PEs / IDA dbs
+*.dll
+*.exe
+*.pdb
+*.i64
+*.idb
+
+# Optional local scan inputs (keep placeholder)
+targets/*
+!targets/.gitkeep
+
+# Qt / secrets
+*.qmlc
+*.jsc
+.env
+.env.*
+
+# OS
+Thumbs.db
+Desktop.ini

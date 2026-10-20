@@ -1,0 +1,35 @@
+Hawkeye ROP — Third-Party Notices
+==================================
+
+Hawkeye ROP (HawkeyeRop.exe and source in this repository)
+Copyright (C) 2026 Hawkeye. Licensed under GPL-3.0-or-later (see LICENSE).
+
+
+Qt 5.15
+-------
+HawkeyeRop.exe is built against Qt 5.15 (MSVC 2019 64-bit) and, in a normal
+deployment, links dynamically to Qt shared libraries (for example Qt5Core.dll,
+Qt5Gui.dll, Qt5Widgets.dll, and the platforms/ plugin directory).
+
+Copyright (C) The Qt Company Ltd. and other contributors.
+Licensed under the GNU Lesser General Public License, version 3 (LGPL-3.0).
+
+Qt is used as a separate shared library. Per LGPL-3.0, you may replace the Qt
+DLLs next to HawkeyeRop.exe with another compatible Qt 5.15 build for
+Windows x64.
+
+Qt open-source source code (match the 5.15 line you use to build or run):
+  https://www.qt.io/download-open-source
+  https://download.qt.io/archive/qt/5.15/
+
+Full LGPL-3.0 text:
+  https://www.gnu.org/licenses/lgpl-3.0.html
+
+
+Bitdefender bddisasm
+--------------------
+Disassembler used in Hawkeye ROP and vendored in this repository.
+
+Copyright Bitdefender.
+SPDX-License-Identifier: Apache-2.0
+Source: third_party/bddisasm/
